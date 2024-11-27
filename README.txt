@@ -8,3 +8,5 @@ Blecon_event_handler.php - Post to personal website and route blecon events to t
 device ID and location. Database credentials need to be added to this file and the appropriate table needs to be created in that database using the Blecon_SQL file in this repository
 
 Bluetooth_Button.cfg- Set up a custom configuration to trigger an event when the button is pressed. After the button is pressed, it will trigger a broadcast. The pin status will change from LOW to HIGH once the button is pressed.
+
+scanner_ESP32.cpp- ESP8266 code to scan for the BLE and turning a LED when device is found. 
